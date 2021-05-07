@@ -1,0 +1,18 @@
+[
+    {
+        "id": "install",
+        "onvan": "Install on Braiins OS+"
+    },
+    {
+        "id": "uninstall",
+        "onvan": "uninstall Braiins OS+"
+    },
+    {
+        "id": "update --bos-mgmt-id FARM_ID",
+        "onvan": "Add FARM_ID to your Braiins OS+"
+    },
+    {
+        "id": "command -o -p root 'miner fault_light on",
+        "onvan": "How to turn ON miner fault light?"
+    }
+]
