@@ -15,4 +15,9 @@
         "id": "command -o -p root 'miner fault_light on",
         "onvan": "How to turn ON miner fault light?"
     }
+    ,
+    {
+        "id": "command -o -p root 'miner nightly_feeds on",
+        "onvan": "How to turn on nightly update?"
+    }
 ]
