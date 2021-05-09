@@ -67,9 +67,9 @@
                             </md-button>
                         </md-card-actions>
                     </md-card>
-                    <md-card>
-                        <video ng-if="os = './bos-toolbox'" src="/assets/bos-toolbox-linux.mp4"></video>
-                        <video ng-if="os = 'bos-toolbox'" src="/assets/bos-toolbox-windows.mp4"></video>
+                    <md-card ng-if="os">
+                        <video ng-if="os = './bos-toolbox'" src="https://www.dropbox.com/s/2wkm44cdyrijo7a/bos-toolbox-linux.mp4?raw=1"></video>
+                        <video ng-if="os = 'bos-toolbox'" src="https://www.dropbox.com/s/l77s25vk0m26bf5/bos-toolbox-windows.mp4?raw=1"></video>
                     </md-card>
                 </div>
             </md-content>
