@@ -56,7 +56,8 @@
                     </md-input-container>
                 </div>
                 <div>
-                    <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch>
+                    <p nig-show="os ==  ./bos-toolbox">Run this command before running command: chmod u+x ./bos-toolbox
+                    <md-card>
                         <md-card-title>
                             <md-card-title-text class="monospace"> {{os}} {{command}} -p root {{deviceip}}
                             </md-card-title-text>
@@ -65,6 +66,10 @@
                             <md-button class="md-primary md-raised" ng-click="copyToClipboard(data.name);">Copy
                             </md-button>
                         </md-card-actions>
+                    </md-card>
+                    <md-card>
+                        <video ng-if="os = ''./bos-toolbox'" src="/assets/bos-toolbox-linux.mp4"></video>
+                        <video ng-if="os = ''bos-toolbox'" src="/assets/bos-toolbox-windows.mp4"></video>
                     </md-card>
                 </div>
             </md-content>
