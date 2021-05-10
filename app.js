@@ -1,4 +1,4 @@
-angular.module('BOSapiclient', ['ngMaterial', 'ngMessages'])
+angular.module('BOSapiclient', ['ngMaterial', 'ngMessages', 'ngclipboard'])
     .config(['$httpProvider', '$qProvider', function ($httpProvider, $qProvider) {
         $qProvider.errorOnUnhandledRejections(false);
         // $httpProvider.defaults.withCredentials = true;

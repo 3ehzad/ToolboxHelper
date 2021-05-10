@@ -1,14 +1,14 @@
 [
     {
-        "id": "install",
+        "id": "install -p root",
         "onvan": "Install on Braiins OS+"
     },
     {
-        "id": "uninstall",
+        "id": "uninstall -p root",
         "onvan": "uninstall Braiins OS+"
     },
     {
-        "id": "update --bos-mgmt-id FARM_ID",
+        "id": "update -p root --bos-mgmt-id FARM_ID",
         "onvan": "Add FARM_ID to your Braiins OS+"
     },
     {
